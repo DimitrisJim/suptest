@@ -1,0 +1,19 @@
+[package]
+name = "suptest"
+version = "0.1.0"
+licence = "MIT OR Apache-2.0"
+authors = ["Jim Fasarakis-Hilliard <d.f.hilliard@gmail.com>"]
+edition = "2018"
+readme = 'README.md'
+repository = 'https://github.com/DimitrisJim/suptest'
+description = ""
+documentation = "https://docs.rs/suptest"
+keywords = ["macro"]
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
