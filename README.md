@@ -1,14 +1,12 @@
-## Test support
+### Pending
 
-Todo: Expand.
+Some small procedural macros.
 
-## Notes:
+#### TODO/NOTES:
 
- - See [attribute reference][Attrs] for `test` and links for `proc_macro_attribute` which we    
-   are using.
- - Also see `syn` (in general) but also [Syntax Tree Enums][STE].
- - misc but as an example: [another use of proc macros][pmacroex].
- 
- [Attrs]: https://doc.rust-lang.org/reference/attributes.html
- [STE]: https://docs.rs/syn/1.0.31/syn/enum.Expr.html#syntax-tree-enums
- [pmacroex]: https://actix.rs/actix-web/src/actix_web_codegen/route.rs.html
+ - Todo: Preserve attributes for `mod`.
+ - Note:Implement for crate level? (I feel it might become kind of obscure.)
+ - Note: `#[ignore]` on module level?
+ - Note: cfg(test): does it take attributes?
+ - Todo: Can generalize the functions to just carry an attribute along.
+ - Note: Does syn features full affect others?
