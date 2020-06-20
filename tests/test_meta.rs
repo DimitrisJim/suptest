@@ -1,12 +1,13 @@
 extern crate suptest;
 use suptest::{unit, integration};
 
-#[integration("test")]
+#[unit(okay)]
 fn test_test(){
     assert_eq!(1, 1);
 }
 
-#[unit("test")]
+
+#[integration("", "")]
 fn test_two_test(){
     assert_eq!(2, 2)
 }
